@@ -1,0 +1,45 @@
+body{
+	background:url('../images/poster.jpg') top center;
+	background-repeat: repeat-y;
+	margin-top: 30px;
+	color:white;
+	}
+	#main{
+		background-color:rgba(192,192,192,0.7);
+
+	}
+
+.input-group{
+	min-width: 70%;
+	margin-left: 6%;
+}
+#btn{
+	min-width: 80%;
+	margin:10px 0px 0px 180px;
+}
+#txt{
+	margin-left: 10%;
+	margin-right: 20%;
+}
+img{
+	float: left;
+}
+#poster{
+	/*background-color:rgba(255, 0, 0, 0.6);*/
+	margin-top: 80px;
+	min-height: 510px;
+	min-width: 640px;
+}
+#texts{
+	font-family: 'Aref Ruqaa', serif;
+	font-size:300%;
+	/*background-color:rgba(255, 0, 0, 0.6);*/
+	margin-top: 80px;
+	min-height: 210px
+}
+.pager{
+	margin-top: 100px;
+}
+#details{
+	background-color:rgba(255, 0, 0, 0.5);
+}

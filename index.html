@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>JQuery Example</title>
+	<meta charset="UTF-8">
+	<!-- Bootstrap CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Aref+Ruqaa" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css"/>
+</head>
+
+<body>
+	<div class="navbar navbar-inverse navbar-fixed-top" id="main"><!--navrbar Starts Here-->
+		<div class="row">
+			<div class="input-group">
+				<input type="text" class="form-control"  id="txt" placeholder="Enter any movie name..">
+			</div><!-- /input-group -->
+		</div>
+		<div class="row">
+			<span class="input-group">
+				<button class="btn btn-primary btn-lg"  id="btn" type="button">Search</button>
+			</span>
+		</div>
+	</div>
+
+	</div>
+	<div class="row" id="details">
+		<template id="temp">
+			<div class="col-sm-8" id="poster">
+				<p><img src={{Poster}}></p>
+			</div>
+			<div class="col-sm-4" id="texts">
+				<p><strong>Name:</strong>{{Title}}</p><br>
+				<p><strong>IMDB_ID:</strong>{{imdbID}}</p><br>
+				<p><strong>Year:</strong>{{Year}}</p><br><br>
+			</div>
+		</template>
+	</div><br><br>
+	<ul  class="col-sm-12 pager">
+		<li><a href="#" id="previous">&larr;Prev</a></li>
+		<li><a href="#" id="next">Next&rarr;</a></li>
+	</ul>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
+</script>
+<script src="includes/script.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.2.1/mustache.js">
+</script>
+</html>
